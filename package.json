@@ -1,0 +1,15 @@
+{
+  "name": "@danielhelen/unit-testing-object-orientated-typescript",
+  "description": "A simple demo for unit testing object-orientated TypeScript using dependency injection and stubs.",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest --no-coverage"
+  },
+  "devDependencies": {
+    "jest": "^26.5.2",
+    "ts-jest": "^26.4.1",
+    "ts-sinon": "^2.0.1",
+    "typescript": "^4.0.3"
+  }
+}
