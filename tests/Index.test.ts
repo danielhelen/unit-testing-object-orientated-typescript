@@ -11,9 +11,9 @@ describe('@danielhelen/unit-testing-object-orientated-typescript', () => {
 
     dependencyStub.methodOne.returns(expected)
 
-    const controller = new Index(dependencyStub)
+    const index = new Index(dependencyStub)
 
-    const actual = await controller.handler()
+    const actual = await index.handler()
 
     expect(dependencyStub.methodOne.called).toEqual(true)
 
